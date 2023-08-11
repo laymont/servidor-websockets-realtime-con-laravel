@@ -1,0 +1,35 @@
+Starting the WebSocket server on port 6001...
+New connection opened for app key some_key.
+Connection id 524742196.936988964 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"524742196.936988964\",\"activity_timeout\":30}"}
+Connection id 524742196.936988964 closed.
+New connection opened for app key some_key.
+Connection id 138338371.394048334 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"138338371.394048334\",\"activity_timeout\":30}"}
+Connection id 138338371.394048334 closed.
+New connection opened for app key some_key.
+Connection id 684270316.436724694 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"684270316.436724694\",\"activity_timeout\":30}"}
+Connection id 684270316.436724694 closed.
+New connection opened for app key ASDASD2023.
+Exception `BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey` thrown: `Could not find app key `ASDASD2023`.`
+Unknown app id: exception `BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey` thrown: `Could not find app key `ASDASD2023`.`.
+Connection id  sending message {"event":"pusher:error","data":{"message":"Could not find app key `ASDASD2023`.","code":4001}}
+Connection id  closed.
+Exception `ErrorException` thrown: `Undefined property: Ratchet\Server\IoConnection::$app`
+New connection opened for app key ASDASD2023.
+Exception `BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey` thrown: `Could not find app key `ASDASD2023`.`
+Unknown app id: exception `BeyondCode\LaravelWebSockets\WebSockets\Exceptions\UnknownAppKey` thrown: `Could not find app key `ASDASD2023`.`.
+Connection id  sending message {"event":"pusher:error","data":{"message":"Could not find app key `ASDASD2023`.","code":4001}}
+Connection id  closed.
+Exception `ErrorException` thrown: `Undefined property: Ratchet\Server\IoConnection::$app`
+Starting the WebSocket server on port 6001...
+New connection opened for app key ASDASD2023.
+Connection id 258791090.923220602 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"258791090.923220602\",\"activity_timeout\":30}"}
+Connection id 258791090.923220602 closed.
+New connection opened for app key ASDASD2023.
+Connection id 668726986.932446501 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"668726986.932446501\",\"activity_timeout\":30}"}
+Connection id 668726986.932446501 closed.
+New connection opened for app key ASDASD2023.
+Connection id 944335751.162343267 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"944335751.162343267\",\"activity_timeout\":30}"}
+Connection id 944335751.162343267 closed.
+New connection opened for app key ASDASD2023.
+Connection id 112171931.16436979 sending message {"event":"pusher:connection_established","data":"{\"socket_id\":\"112171931.16436979\",\"activity_timeout\":30}"}
+Connection id 112171931.16436979 closed.
