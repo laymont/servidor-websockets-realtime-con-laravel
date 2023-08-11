@@ -11,6 +11,13 @@
 |
 */
 
-Broadcast::channel('App.User.{id}', function ($user, $id) {
-    return (int) $user->id === (int) $id;
+use Illuminate\Support\Facades\Broadcast;
+
+Broadcast::channel('messages.{userId}', function ($user, $userId) {
+    return (int) $user->id === (int) $userId;
+});
+
+Broadcast::event(MessageEvent::class, function ($message, $channel) {
+    // Realiza las acciones necesarias con el mensaje recibido
+    // Puedes emitir eventos de vuelta si es necesario
 });

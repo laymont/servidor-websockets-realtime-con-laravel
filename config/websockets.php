@@ -32,6 +32,14 @@ return [
             'enable_client_messages' => false,
             'enable_statistics' => true,
         ],
+        [
+            'id' => 'canvas',
+            'name' => 'Canvas',
+            'key' => 'ASDASD2023',
+            'secret' => 'ASDASD1008',
+            'enable_client_messages' => true,
+            'enable_statistics'  => true,
+        ]
     ],
 
     /*
